@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse & Keyboard Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mouse & Keyboard Tester</h1>
+
+        <!-- Mouse Testing Section -->
+        <div class="section">
+            <h2>Mouse Test</h2>
+            <div id="mouse-area" class="mouse-area">
+                <p>Move your mouse here!</p>
+            </div>
+            <p>Coordinates: <span id="mouse-coords">X: 0, Y: 0</span></p>
+            <p>Last Click: <span id="click-log">None</span></p>
+        </div>
+
+        <!-- Keyboard Testing Section -->
+        <div class="section">
+            <h2>Keyboard Test</h2>
+            <div id="keyboard-area" class="keyboard-area">
+                <p>Press any key...</p>
+            </div>
+            <p>Last Key Pressed: <span id="key-log">None</span></p>
+        </div>
+
+        <!-- Reset Button -->
+        <button id="reset-button">Reset Test</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
